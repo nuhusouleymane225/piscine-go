@@ -1,2 +1,2 @@
 #! /bin/bash
-echo 'Hello nuhusouleumane225 !';
+echo 'Hello nuhusouleymane225 !';
