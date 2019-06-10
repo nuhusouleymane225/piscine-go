@@ -1,0 +1,1 @@
+ls -AtFmG | sed -e "s/ //g"
