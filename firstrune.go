@@ -1,6 +1,8 @@
 package piscine
 
-func FirstRune(s string) rune {
-	runeTab := []rune(s)
-	return runeTab[0]
+import"unicode/utf8"
+
+func FirstRune(s string) rune{
+	ss,_:=utf8.DecodeRune([]byte(s))
+	return ss
 }
